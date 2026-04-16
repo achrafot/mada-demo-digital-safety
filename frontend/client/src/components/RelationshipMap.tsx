@@ -390,7 +390,7 @@ export default function RelationshipMap() {
                     fontSize="9"
                     fill={strokeColor}
                     opacity={0.9}
-                    style={{ fontFamily: 'Cairo, sans-serif' }}
+                    style={{ fontFamily: 'Lusail, sans-serif' }}
                   >
                     {edge.label}
                   </text>
@@ -455,7 +455,7 @@ export default function RelationshipMap() {
                   fontSize={isCenter ? 9 : node.tier === 'primary' ? 8 : 7}
                   fontWeight="700"
                   fill={isCenter ? 'white' : node.color}
-                  style={{ fontFamily: 'Cairo, sans-serif', pointerEvents: 'none' }}
+                  style={{ fontFamily: 'Lusail, sans-serif', pointerEvents: 'none' }}
                 >
                   {node.shortLabel.length > 10 ? node.shortLabel.substring(0, 9) + '…' : node.shortLabel}
                 </text>
@@ -469,7 +469,7 @@ export default function RelationshipMap() {
                     fontSize="8.5"
                     fill="#1C2B3A"
                     fontWeight="600"
-                    style={{ fontFamily: 'Cairo, sans-serif', pointerEvents: 'none' }}
+                    style={{ fontFamily: 'Lusail, sans-serif', pointerEvents: 'none' }}
                   >
                     {node.label.length > 18 ? node.label.substring(0, 17) + '…' : node.label}
                   </text>

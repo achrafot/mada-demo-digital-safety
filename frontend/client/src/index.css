@@ -3,14 +3,40 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/*
- * Design Philosophy: Modern Arabic Institutional
- * Colors: Qatar maroon (#8D1B3D) + gold (#C9A84C) + cream (#FAF8F5) + dark navy (#1C2B3A)
- * Typography: Cairo (headings) + Noto Sans Arabic (body)
- * Layout: RTL sidebar navigation + content area
- */
+@font-face {
+  font-family: "Lusail";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./assets/fonts/Lusail-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lusail";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/Lusail-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lusail";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/fonts/Lusail-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lusail";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./assets/fonts/Lusail-Bold.woff2") format("woff2");
+}
 
 @theme inline {
+  --default-font-family: "Lusail", sans-serif;
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -99,7 +125,7 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-family: 'Cairo', 'Noto Sans Arabic', sans-serif;
+    font-family: 'Lusail', sans-serif;
     direction: rtl;
   }
   button:not(:disabled),
@@ -114,7 +140,7 @@
     @apply cursor-pointer;
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Lusail', sans-serif;
     font-weight: 700;
   }
 }

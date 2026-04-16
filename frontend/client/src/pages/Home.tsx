@@ -850,11 +850,11 @@ export default function Home() {
                 <ResponsiveContainer width="100%" height={220}>
                   <BarChart data={lawsByYear} margin={{ top: 5, right: 5, left: -20, bottom: 5 }}>
                     <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
-                    <XAxis dataKey="year" tick={{ fontSize: 11, fontFamily: 'Cairo' }} />
+                    <XAxis dataKey="year" tick={{ fontSize: 11, fontFamily: 'Lusail' }} />
                     <YAxis tick={{ fontSize: 11 }} allowDecimals={false} />
                     <Tooltip
                       formatter={(v) => [`${v} تشريع`, 'العدد']}
-                      contentStyle={{ fontFamily: 'Cairo', fontSize: 12, direction: 'rtl' }}
+                      contentStyle={{ fontFamily: 'Lusail', fontSize: 12, direction: 'rtl' }}
                     />
                     <Bar dataKey="count" fill="#8D1B3D" radius={[4, 4, 0, 0]} />
                   </BarChart>
@@ -881,12 +881,12 @@ export default function Home() {
                     </Pie>
                     <Tooltip
                       formatter={(v, name) => [`${v}`, name]}
-                      contentStyle={{ fontFamily: 'Cairo', fontSize: 12, direction: 'rtl' }}
+                      contentStyle={{ fontFamily: 'Lusail', fontSize: 12, direction: 'rtl' }}
                     />
                     <Legend
                       iconType="circle"
                       iconSize={8}
-                      formatter={(value) => <span style={{ fontSize: 11, fontFamily: 'Cairo' }}>{value}</span>}
+                      formatter={(value) => <span style={{ fontSize: 11, fontFamily: 'Lusail' }}>{value}</span>}
                     />
                   </PieChart>
                 </ResponsiveContainer>

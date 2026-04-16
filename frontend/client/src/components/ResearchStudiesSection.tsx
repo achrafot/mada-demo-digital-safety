@@ -361,7 +361,7 @@ export default function ResearchStudiesSection() {
           </div>
           <div>
             <p className="text-xs text-[#4a9edd] font-medium tracking-widest uppercase">أبحاث موثقة</p>
-            <h2 className="text-2xl font-bold text-white" style={{ fontFamily: "'Noto Kufi Arabic', sans-serif" }}>
+            <h2 className="text-2xl font-bold text-white" style={{ fontFamily: "'Lusail', sans-serif" }}>
               الدراسات والأبحاث العلمية
             </h2>
           </div>
@@ -459,7 +459,7 @@ export default function ResearchStudiesSection() {
                     </a>
                   </div>
 
-                  <h3 className="text-white font-semibold text-base leading-relaxed mb-2" style={{ fontFamily: "'Noto Kufi Arabic', sans-serif" }}>
+                  <h3 className="text-white font-semibold text-base leading-relaxed mb-2" style={{ fontFamily: "'Lusail', sans-serif" }}>
                     {study.titleAr}
                   </h3>
                   <p className="text-[#6a8aaa] text-xs mb-3 leading-relaxed">{study.titleEn}</p>

@@ -487,7 +487,7 @@ export default function ActionPlan() {
                 خطة العمل التنفيذية
               </span>
             </div>
-            <h2 className="text-2xl font-bold mb-2" style={{ color: '#1C2B3A', fontFamily: 'Cairo, sans-serif' }}>
+            <h2 className="text-2xl font-bold mb-2" style={{ color: '#1C2B3A', fontFamily: 'Lusail, sans-serif' }}>
               خطة العمل الثلاثية (12 شهراً)
             </h2>
             <p className="text-sm text-gray-600 max-w-2xl leading-relaxed">
@@ -559,7 +559,7 @@ export default function ActionPlan() {
         {showResetConfirm && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40" onClick={() => setShowResetConfirm(false)}>
             <div className="bg-white rounded-2xl shadow-2xl p-6 max-w-sm w-full mx-4" dir="rtl" onClick={e => e.stopPropagation()}>
-              <h3 className="text-lg font-bold text-gray-900 mb-2" style={{ fontFamily: 'Cairo, sans-serif' }}>
+              <h3 className="text-lg font-bold text-gray-900 mb-2" style={{ fontFamily: 'Lusail, sans-serif' }}>
                 تأكيد إعادة التعيين
               </h3>
               <p className="text-sm text-gray-600 mb-5">
@@ -661,7 +661,7 @@ export default function ActionPlan() {
                   </span>
                 )}
               </div>
-              <h3 className="text-xl font-bold" style={{ fontFamily: 'Cairo, sans-serif' }}>
+              <h3 className="text-xl font-bold" style={{ fontFamily: 'Lusail, sans-serif' }}>
                 {currentPhase.title}: {currentPhase.subtitle}
               </h3>
               <p className="text-sm text-white/80 mt-1 leading-relaxed max-w-2xl">
@@ -780,7 +780,7 @@ export default function ActionPlan() {
         {/* ── Summary Table ───────────────────────────────────────────────────── */}
         <div className="rounded-xl border border-gray-200 overflow-hidden bg-white">
           <div className="px-5 py-4 border-b border-gray-100" style={{ background: '#1C2B3A' }}>
-            <h4 className="text-sm font-bold text-white" style={{ fontFamily: 'Cairo, sans-serif' }}>
+            <h4 className="text-sm font-bold text-white" style={{ fontFamily: 'Lusail, sans-serif' }}>
               ملخص الخطة الثلاثية — توزيع المبادرات والجهات القائدة
             </h4>
           </div>
